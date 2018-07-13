@@ -1,0 +1,92 @@
+{
+  "referenceGuide":"Cite all the reference sources in the required format. Proper citations will help you avoid unnecessary trouble but does not make it acceptable to copy code. Read the course and university policy statements in this regard. When working with others, limit the discussion to block diagrams and arrows. Do not look at another students' code. Read the JSON semantics and make use of JSON validator from the Internet if needed.",
+  "websites":[
+    {
+      "title":"Chapter 4. Advanced JDBC",
+      "url":"https://www.safaribooksonline.com/library/view/database-programming-with/1565926161/ch04.html",
+      "code":"Used to write prepared Java statements code.",
+      "description":"Used to write prepared Java statements code."
+    },
+    {
+      "title":"Building Simple Data Access Layer Using JDBC",
+      "url":"https://dzone.com/articles/building-simple-data-access-layer-using-jdbc",
+      "code":"Used to write prepared Java statements code.",
+      "description":"Used to write prepared Java statements code."
+    },
+    {
+      "title":"http://www.javased.com/?api=com.google.gson.JsonArray",
+      "url":"http://www.javased.com/?api=com.google.gson.JsonArray",
+      "code":"Used to create JSON objects",
+      "description":"Used to create JSON objects"
+     },
+    {
+      "title":"Best way to convert an ArrayList to a string",
+      "url":"https://stackoverflow.com/questions/599161/best-way-to-convert-an-arraylist-to-a-string",
+      "code":"Used to print all the followers in csv format",
+      "description":"Used to print all the followers in csv format"
+     },
+     {
+       "title":"How to name an array of JSON objects using GSON?",
+       "url":"https://stackoverflow.com/questions/29214225/how-to-name-an-array-of-json-objects-using-gson",
+       "code":"Used to create JSON Array",
+       "description":"Used to create JSON Array"
+     },
+     {
+       "title":"Java PreparedStatement IN clause alternatives",
+       "url":"https://www.journaldev.com/2521/java-preparedstatement-in-clause-alternatives",
+       "code":"Used to write in query using java prepared statments",
+       "description":"Used to write in query using java prepared statments"
+     },
+     {
+       "title":"Apache HBase",
+       "url":"https://hortonworks.com/apache/hbase/",
+       "code":"Used to study basic actions in HBase",
+       "description":"Used to study basic actions in HBase"
+     },
+
+
+    {
+      "title":"Gson — Mapping of Arrays and Lists of Objects",
+      "url":"https://futurestud.io/tutorials/gson-mapping-of-arrays-and-lists-of-objects",
+      "code":"Used to convert comments objects to json",
+      "description":"Used to convert comments objects to json"
+     },
+     {
+       "title":"How to convert Java object to / from JSON (Gson)",
+       "url":"https://www.mkyong.com/java/how-do-convert-java-object-to-from-json-format-gson-api/",
+       "code":"Used to convert comments objects to json",
+       "description":"Used to convert comments objects to json"
+     },
+     {
+       "title":"Java MongoDB : Query document",
+       "url":"https://www.mkyong.com/mongodb/java-mongodb-query-document/",
+       "code":"NOT Used : Was trying to figure out how to parse the resultset in mongo db",
+       "description":"NOT Used : Was trying to figure out how to parse the resultset in mongo db"
+     },
+     {
+       "title":"Java Driver Tutorials",
+       "url":"https://mongodb.github.io/mongo-java-driver/3.6/driver/tutorials/",
+       "code":"Used to write code that interacts with mongo db in java",
+       "description":"Used to write code that interacts with mongo db in java"
+     },
+     {
+       "title":"MongoDB : Select/Query/Find Document(s) Examples",
+       "url":"https://howtodoinjava.com/mongodb/mongodb-selectqueryfind-documents-examples/",
+       "code":"Used to write mongo db in qyuery in java",
+       "description":"Used to write mongo db in qyuery in java"
+     },
+     {
+       "title":"Gson — Mapping of Nested Objects",
+       "url":"https://futurestud.io/tutorials/gson-mapping-of-nested-objects",
+       "code":"Used to create comment json with parent and grand parent nested items",
+       "description":"Used to create comment json with parent and grand parent nested items"
+     }
+  ],
+  "collaborators":[
+    {
+      "andrewId":"<collaborator andrewId>",
+      "collaborationType":"<I helped X, X helped me, or we helped each other>",
+      "description":"<describe the idea discussed or shared>"
+    }
+  ]
+}
