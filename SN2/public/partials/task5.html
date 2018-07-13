@@ -1,0 +1,42 @@
+<!-- task5.html -->
+<div>
+	<div class="panel panel-default  form_panel">
+		<h4>Task 5</h4>
+		<form class="form-search-recommendation">
+			<input id="inputID" class="form-control" placeholder="User ID" required="" autofocus="" ng-model="id"/>
+			<button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="task5go()"> Search </button>
+		</form>
+	</div>
+
+	<div class="container-fluid">
+    <div style="text-align:center;">
+      <h4>People you may find interesting:</h4>
+      <hr/>
+    </div>
+    <div class="spinner" ng-show="loading">
+      <img src="img/ajax-loader.gif"/>
+    </div>
+		<div class="row">
+      <div class="col-sm-4"></div>
+		  <div class="col-sm-4">
+					<div class="col-sm-4" ng-repeat="person in recommendation">
+						<div>
+							<div class="card" style="background-image: url('{{person.profile}}')" />
+						</div>
+						<div>
+							<div class="card_name"> 
+								<a href="#">
+									<h4>{{person.name}}</h4>
+								</a> 
+								<a href="#">
+									<i class="glyphicon glyphicon-heart"></i>
+									{{person.category}}
+								</a>
+							</div>
+						</div>
+					</div>
+      </div>
+      <div class="col-sm-4"></div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,102 @@
+<!-- task3.html -->
+<div>
+
+	<!-- content -->
+	<div class="container">
+		<div class="row">
+			<div id="side-col" class="col-md-4">
+				<!--Sidebar content-->
+
+				<h4>Task 3</h4>
+				<div class="panel panel-default">
+					<form class="form-signin">
+						<input id="inputID" class="form-control" placeholder="User ID" required="" autofocus="" ng-model="id">
+						<button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="task3go()">Search</button>
+					</form>
+				</div>
+
+				<div class="panel panel-defualt">
+					<div class="panel-thumbnail">
+						<img src="{{profile}}" class="img-responsive">
+					</div>
+					<div class="panel-body">
+						<p class="lead">
+							{{name}}
+						</p>
+						<p>
+							{{followerCount}} followers
+						</p>
+					</div>
+					<span ng-repeat="follower in followers | limitTo:14 ">
+						<img src="{{follower.profile}}" width="28px" height="28px">
+					</span>
+				</div>
+
+
+				<div class="panel panel-default"> 
+					<div class="panel-heading">
+						<a href="#" class="pull-right">View all</a>
+						<h4> About</h4>
+					</div> 
+					<div class="panel-body"> 
+						<div class="list-group"> 
+							<a href="#" class="list-group-item">Work and Education</a> 
+							<a href="#" class="list-group-item">Contact and Basic Info</a> 
+							<a href="#" class="list-group-item">Family and Relationships</a>
+						</div> 
+					</div> 
+				</div>
+
+				<div class="well"> 
+					<form class="form-horizontal" role="form"> 
+						<h4>What's New</h4> 
+						<div class="form-group" style="padding:14px;"> 
+							<textarea class="form-control" placeholder="Update your status"></textarea> 
+						</div> 
+						<button class="btn btn-primary pull-right" type="button">Post</button> 
+						<ul class="list-inline"> 
+							<li>
+								<a href=""><i class="glyphicon glyphicon-upload"></i></a>
+							</li> 
+							<li>
+								<a href=""><i class="glyphicon glyphicon-camera"></i></a>
+							</li> 
+							<li>
+								<a href="">
+								<i class="glyphicon glyphicon-map-marker"></i></a>
+							</li> 
+						</ul> 
+					</form> 
+				</div> 
+			</div>
+
+			<div id="main-col" class="col-md-6">
+				<!--Body content-->
+				<h4> {{pageTitle}} </h4>
+        <div class="spinner" ng-show="loading">
+          <img src="img/ajax-loader.gif"/>
+        </div>
+				<div>
+					<div class="panel panel-white post panel-shadow" ng-repeat="post in posts">
+						
+						<div class="post-heading">
+							<div>
+								<h6 class="text-muted time"> {{post.timestamp}}  </h6>
+							</div>
+							<div class="pull-left image">
+								<button type=button class="btn btn-success btn-xs" style="border-color:#5cb85c;"><span class="glyphicon glyphicon-thumbs-up">&nbsp;</span>{{post.ups}}</button>
+                <button type=button class="btn btn-danger btn-xs" style="border-color:#ac2925;"><span class="glyphicon glyphicon-thumbs-down">&nbsp;</span>{{post.downs}}</button>
+							</div>
+						</div>
+						<div class="post-description">
+							<p> {{post.content}} </p>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</div>
