@@ -8,7 +8,7 @@ Implement login functionality on the home page using MySQL DB. Java servlet inte
 
 # Task 2
 Store user-follower relationship in HBase and write a Java servlet to find all the followers of a given user. 
-
+There could have been a little more introduction to HBase.
 
 # Task 3 
 Store all the comments by the user in Mongo DB and write a Java servlet to find all the comments of a given user.
